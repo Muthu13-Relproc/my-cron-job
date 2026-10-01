@@ -1,0 +1,9 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "my-cron-job",
+  "main": "index.js",
+  "compatibility_date": "2026-10-01",
+  "triggers": {
+    "crons": ["* * * * *"]
+  }
+}
